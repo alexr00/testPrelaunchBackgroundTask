@@ -8,6 +8,9 @@
             "type": "shell",
             "isBackground": true,
             "command": ".\\.vscode\\fakeScript.cmd",
+            "linux": {
+                "command": "./.vscode/fakeScript.sh"
+            },
             "problemMatcher": {
                 "pattern": {
                     "regexp": "(Info|Warn) : .*",
